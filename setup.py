@@ -3,7 +3,7 @@ from typing import List
 
 HYPEN_edot = "-e ."
 
-def get_requirements(file_path:str)->list[str]:
+def get_requirements(file_path:str)->List[str]:
     '''
     this function will return the list of requirment pakages like seaborn, numpu, etc
     '''
